@@ -26,6 +26,20 @@ main {
   background-color: #BFF078;
 }
 
+.main-grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 30% 30% 30%;
+  grid-row-gap: 20px;
+  grid-column-gap: 40px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.main-grid > div {
+  background-color: #fff;
+}
+
 footer {
   grid-area: footer;
   background-color: #F62551;
