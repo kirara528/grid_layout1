@@ -37,6 +37,9 @@ main {
 
 .main-grid > div {
   background-color: #fff;
+  display: grid;
+  text-align: center;
+  align-items: center;
 }
 
 footer {
